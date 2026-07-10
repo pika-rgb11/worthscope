@@ -215,7 +215,7 @@ export default function Home() {
               W
             </span>
             <div>
-              <span className="block font-serif text-2xl font-black tracking-tight">Expensss Master</span>
+              <span className="block font-serif text-2xl font-black tracking-tight">Worth Scope</span>
               <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#7c5b27]">Billionaire buying power</span>
             </div>
           </div>
