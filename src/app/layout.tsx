@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Billionaire Buyout Calculator | Spend Celebrity Net Worth",
   description: "Ever wondered what you can buy with a billionaire's net worth? Use our interactive calculator to spend money like Elon Musk, Ambani, and other famous celebrities on real-world items.",
   keywords: "billionaire calculator, spend elon musk money, celebrity net worth, buy real items",
+  verification: {
+    google: "wFbE4hRy7Y-Sx_RUpuXviOwBL6mg2zqod-FD7uwhsU4",
+  },
 };
 
 export default function RootLayout({
