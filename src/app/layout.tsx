@@ -15,9 +15,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Billionaire Spending Simulator | Spend Celebrity Net Worth",
-  description: "Play the ultimate billionaire shopping game. Find out what you can buy with the net worth of Elon Musk, MrBeast, Jeff Bezos, and global celebrities. Spend their money in real-time!",
-  keywords: "spend elon musk money game, mrbeast net worth simulator, billionaire shopping spree, spend celebrity money calculator, what can i buy with a billion dollars, jeff bezos spending game",
+  title: "Expensss Master | Billionaire Spending Simulator",
+  description: "Play Expensss Master, the ultimate billionaire spending simulator! Spend the massive net worth of Elon Musk, MrBeast & Jeff Bezos in this fun shopping game.",
+  keywords: "Expensss Master, luxury shopping simulator, buy stuff with jeff bezos money, net worth spending app, how to spend a billion dollars, spend bill gates money, fake money shopping game, celebrity net worth game, rich lifestyle simulator",
   verification: {
     google: "wFbE4hRy7Y-Sx_RUpuXviOwBL6mg2zqod-FD7uwhsU4",
   },

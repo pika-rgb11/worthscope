@@ -212,10 +212,10 @@ export default function Home() {
         <nav className="mx-auto flex max-w-7xl flex-col gap-4 rounded-[2rem] border border-[#1d1a15]/10 bg-white/45 px-5 py-4 shadow-[0_20px_80px_rgba(65,49,23,.12)] backdrop-blur sm:flex-row sm:items-center sm:justify-between sm:rounded-full">
           <div className="flex items-center gap-3">
             <span className="grid h-11 w-11 place-items-center rounded-2xl bg-[#1d1a15] font-serif text-xl font-black text-[#fff4d4] shadow-lg">
-              W
+              E
             </span>
             <div>
-              <span className="block font-serif text-2xl font-black tracking-tight">Worth Scope</span>
+              <span className="block font-serif text-2xl font-black tracking-tight">Expensss Master</span>
               <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#7c5b27]">Billionaire buying power</span>
             </div>
           </div>
@@ -449,8 +449,29 @@ export default function Home() {
       Fariyad Shiekh
     </span>
   </span>
+ </div>
+  
+{/* SEO CONTENT & FOOTER SECTION */}
+<div style={{ marginTop: '50px', padding: '20px', textAlign: 'center', opacity: '0.7', fontSize: '14px' }}>
+  
+  {/* Yeh tera H1/H2 match karne ke liye hai */}
+  <h2>Billionaire Spending Simulator | Spend Celebrity Net Worth</h2>
+  
+  {/* Yeh text tera word count badhayega aur Meta Description se match karega */}
+  <p style={{ maxWidth: '800px', margin: '10px auto', lineHeight: '1.6' }}>
+    Play the ultimate billionaire shopping game. Find out what you can buy with the massive net worth of Elon Musk, MrBeast, Jeff Bezos, and other global celebrities. From luxury real estate like the Burj Khalifa to private islands, use our interactive calculator to spend their money in real-time!
+  </p>
+
+  {/* Yeh Internal Links error hatane ke liye hai */}
+  <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '20px', fontSize: '12px', fontWeight: 'bold' }}>
+    <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</a>
+    <a href="#" style={{ textDecoration: 'none', color: 'inherit' }}>About Us</a>
+    <a href="#" style={{ textDecoration: 'none', color: 'inherit' }}>Privacy Policy</a>
+  </div>
+
 </div>
 
     </main>
+  
   );
 }
