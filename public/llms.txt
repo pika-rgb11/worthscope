@@ -1,0 +1,2 @@
+# Billionaire Spending Simulator
+An interactive web application tool to simulate spending celebrity net worth.
