@@ -469,6 +469,31 @@ export default function Home() {
     <a href="#" style={{ textDecoration: 'none', color: 'inherit' }}>Privacy Policy</a>
   </div>
 
+{(() => {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Billionaire Buyout Calculator",
+    "operatingSystem": "All",
+    "applicationCategory": "WebApplication",
+    "browserRequirements": "Requires HTML5 support",
+    "url": "https://expensssmaster.in/",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "abstract": "An interactive celebrity net worth spending simulator that allows users to visualize global billionaire wealth in real-time."
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+})()}
+
 </div>
 
     </main>
